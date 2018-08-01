@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EB496902111B08400AA219E /* JFormModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB4968F2111B08400AA219E /* JFormModel.m */; };
 		2EF1204821019C6400DDDC9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1204721019C6400DDDC9D /* AppDelegate.m */; };
 		2EF1204B21019C6400DDDC9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1204A21019C6400DDDC9D /* ViewController.m */; };
 		2EF1204E21019C6400DDDC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF1204C21019C6400DDDC9D /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EB4968E2111B08400AA219E /* JFormModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFormModel.h; sourceTree = "<group>"; };
+		2EB4968F2111B08400AA219E /* JFormModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFormModel.m; sourceTree = "<group>"; };
 		2EF1204321019C6400DDDC9D /* Form-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Form-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF1204621019C6400DDDC9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EF1204721019C6400DDDC9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,9 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E09798F2109B88E003856EC /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				2EB4968E2111B08400AA219E /* JFormModel.h */,
+				2EB4968F2111B08400AA219E /* JFormModel.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
 		2EF1203A21019C6300DDDC9D = {
 			isa = PBXGroup;
 			children = (
+				2E09798F2109B88E003856EC /* Src */,
 				2EF1204521019C6400DDDC9D /* Form-iOS */,
 				2EF1205E21019C6600DDDC9D /* Form-iOSTests */,
 				2EF1206921019C6600DDDC9D /* Form-iOSUITests */,
@@ -264,6 +277,7 @@
 			files = (
 				2EF1204B21019C6400DDDC9D /* ViewController.m in Sources */,
 				2EF1205621019C6600DDDC9D /* main.m in Sources */,
+				2EB496902111B08400AA219E /* JFormModel.m in Sources */,
 				2EF1204821019C6400DDDC9D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
