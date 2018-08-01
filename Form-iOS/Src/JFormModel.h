@@ -47,7 +47,7 @@ typedef id (^MapFromKeyValueToSpecialValueBlock)(NSString *key,id value);
 //表单是否可以编辑
 @property (nonatomic, assign,getter=isFormEdit)  BOOL  formEdit;
 
-//内部懒加载初始化
+//扩展字段 -  内部懒加载初始化
 @property (nonatomic, strong) NSDictionary *  extension;
 
 - (NSDictionary *)serverMap;
